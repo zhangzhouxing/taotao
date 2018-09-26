@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--第一行的意思就是这个文件的默认schema为security，所以你的beans定义就需要加上前缀beans-->
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:beans="http://www.springframework.org/schema/beans"
+             xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/security
+                           http://www.springframework.org/schema/security/spring-security.xsd">
+
+    <!--配置不需要拦截的请求或页面-->
+    <http pattern="/login.html" security="none"/>
+    <http pattern="/css/**" security="none"/>
+    <http pattern="/img/**" security="none"/>
+    <http pattern="/js/**" security="none"/>
+    <http pattern="/plugins/**" security="none"/>
+
+    <!--页面拦截规则-->
+    <http use-expressions="false">
+        <intercept-url pattern="/**" access="ROLE_ADMIN"/>
+        <form-login login-page="/login.html" default-target-url="/admin/index.html"
+                    authentication-failure-url="/login.html" always-use-default-target="true"/>
+        <csrf disabled="true"/>
+
+        <logout/>
+        <!--系统中使用了框架页，需要设置框架页的策略为 SAMEORIGIN-->
+        <headers>
+            <frame-options policy="SAMEORIGIN"/>
+        </headers>
+    </http>
+    
+    <!--认证管理器-->
+    <authentication-manager>
+        <authentication-provider>
+            <user-service>
+                <user name="admin" password="123456" authorities="ROLE_ADMIN"/>
+            </user-service>
+        </authentication-provider>
+    </authentication-manager>
+</beans:beans>

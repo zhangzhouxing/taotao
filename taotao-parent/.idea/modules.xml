@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/taotao-common/taotao-common.iml" filepath="$PROJECT_DIR$/taotao-common/taotao-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-dao/taotao-dao.iml" filepath="$PROJECT_DIR$/taotao-dao/taotao-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-manager-web/taotao-manager-web.iml" filepath="$PROJECT_DIR$/taotao-manager-web/taotao-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-parent.iml" filepath="$PROJECT_DIR$/taotao-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-pojo/taotao-pojo.iml" filepath="$PROJECT_DIR$/taotao-pojo/taotao-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-sellergoods-interface/taotao-sellergoods-interface.iml" filepath="$PROJECT_DIR$/taotao-sellergoods-interface/taotao-sellergoods-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-sellergoods-service/taotao-sellergoods-service.iml" filepath="$PROJECT_DIR$/taotao-sellergoods-service/taotao-sellergoods-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-shop-web/taotao-shop-web.iml" filepath="$PROJECT_DIR$/taotao-shop-web/taotao-shop-web.iml" />
+    </modules>
+  </component>
+</project>
