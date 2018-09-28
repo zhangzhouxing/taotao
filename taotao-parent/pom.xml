@@ -16,6 +16,9 @@
         <module>taotao-common</module>
         <module>taotao-manager-web</module>
         <module>taotao-shop-web</module>
+        <module>taotao-content-interface</module>
+        <module>taotao-content-service</module>
+        <module>taotao-portal-web</module>
     </modules>
     <!-- 集中定义依赖版本号 -->
     <properties>
