@@ -10,9 +10,13 @@
       <module fileurl="file://$PROJECT_DIR$/taotao-parent.iml" filepath="$PROJECT_DIR$/taotao-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-pojo/taotao-pojo.iml" filepath="$PROJECT_DIR$/taotao-pojo/taotao-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-portal-web/taotao-portal-web.iml" filepath="$PROJECT_DIR$/taotao-portal-web/taotao-portal-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-search-interface/taotao-search-interface.iml" filepath="$PROJECT_DIR$/taotao-search-interface/taotao-search-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-search-service/taotao-search-service.iml" filepath="$PROJECT_DIR$/taotao-search-service/taotao-search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-search-web/taotao-search-web.iml" filepath="$PROJECT_DIR$/taotao-search-web/taotao-search-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-sellergoods-interface/taotao-sellergoods-interface.iml" filepath="$PROJECT_DIR$/taotao-sellergoods-interface/taotao-sellergoods-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-sellergoods-service/taotao-sellergoods-service.iml" filepath="$PROJECT_DIR$/taotao-sellergoods-service/taotao-sellergoods-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-shop-web/taotao-shop-web.iml" filepath="$PROJECT_DIR$/taotao-shop-web/taotao-shop-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-solr-util/taotao-solr-util.iml" filepath="$PROJECT_DIR$/taotao-solr-util/taotao-solr-util.iml" />
     </modules>
   </component>
 </project>

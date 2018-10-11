@@ -4,6 +4,8 @@
     <file type="web" url="file://$PROJECT_DIR$/taotao-content-service" />
     <file type="web" url="file://$PROJECT_DIR$/taotao-manager-web" />
     <file type="web" url="file://$PROJECT_DIR$/taotao-portal-web" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-search-service" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-search-web" />
     <file type="web" url="file://$PROJECT_DIR$/taotao-sellergoods-service" />
     <file type="web" url="file://$PROJECT_DIR$/taotao-shop-web" />
   </component>

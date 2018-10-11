@@ -13,9 +13,13 @@
         <module name="taotao-manager-web" />
         <module name="taotao-pojo" />
         <module name="taotao-portal-web" />
+        <module name="taotao-search-interface" />
+        <module name="taotao-search-service" />
+        <module name="taotao-search-web" />
         <module name="taotao-sellergoods-interface" />
         <module name="taotao-sellergoods-service" />
         <module name="taotao-shop-web" />
+        <module name="taotao-solr-util" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,9 +31,13 @@
       <module name="taotao-parent" target="1.7" />
       <module name="taotao-pojo" target="1.7" />
       <module name="taotao-portal-web" target="1.7" />
+      <module name="taotao-search-interface" target="1.7" />
+      <module name="taotao-search-service" target="1.7" />
+      <module name="taotao-search-web" target="1.7" />
       <module name="taotao-sellergoods-interface" target="1.7" />
       <module name="taotao-sellergoods-service" target="1.7" />
       <module name="taotao-shop-web" target="1.7" />
+      <module name="taotao-solr-util" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
