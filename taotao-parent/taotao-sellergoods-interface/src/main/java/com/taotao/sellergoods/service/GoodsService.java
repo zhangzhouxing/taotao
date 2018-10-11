@@ -2,6 +2,7 @@ package com.taotao.sellergoods.service;
 import java.util.List;
 import com.taotao.pojo.TbGoods;
 
+import com.taotao.pojo.TbItem;
 import com.taotao.pojogroup.Goods;
 import entity.PageResult;
 /**
@@ -63,4 +64,9 @@ public interface GoodsService {
 	 * 批量修改状态
 	 */
 	void updateStatus(Long[] ids,String status);
+
+	/**
+	 * 根据商品ID和状态查询Item表信息
+	 */
+	List<TbItem> findItemListByGoodsIdAndStatus(Long[] goodsIds,String status);
 }
