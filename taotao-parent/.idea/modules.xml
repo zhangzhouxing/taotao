@@ -7,6 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/taotao-content-service/taotao-content-service.iml" filepath="$PROJECT_DIR$/taotao-content-service/taotao-content-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-dao/taotao-dao.iml" filepath="$PROJECT_DIR$/taotao-dao/taotao-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-manager-web/taotao-manager-web.iml" filepath="$PROJECT_DIR$/taotao-manager-web/taotao-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-page-interface/taotao-page-interface.iml" filepath="$PROJECT_DIR$/taotao-page-interface/taotao-page-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-page-service/taotao-page-service.iml" filepath="$PROJECT_DIR$/taotao-page-service/taotao-page-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-page-web/taotao-page-web.iml" filepath="$PROJECT_DIR$/taotao-page-web/taotao-page-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-parent.iml" filepath="$PROJECT_DIR$/taotao-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-pojo/taotao-pojo.iml" filepath="$PROJECT_DIR$/taotao-pojo/taotao-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-portal-web/taotao-portal-web.iml" filepath="$PROJECT_DIR$/taotao-portal-web/taotao-portal-web.iml" />

@@ -2,6 +2,7 @@ package com.taotao.manager.controller;
 import java.util.Arrays;
 import java.util.List;
 
+import com.taotao.page.service.ItemPageService;
 import com.taotao.pojo.TbItem;
 import com.taotao.pojogroup.Goods;
 import com.taotao.search.service.ItemSearchService;
@@ -28,6 +29,10 @@ public class GoodsController {
 
 	@Reference
 	private ItemSearchService itemSearchService;
+
+	@Reference(timeout = 40000)
+	private ItemPageService itemPageService;
+
 
 	/**
 	 * 返回全部列表
@@ -141,9 +146,22 @@ public class GoodsController {
 				}
 			}
 
+			//静态页生成
+			for (Long goodsId:ids){
+				itemPageService.getItemHtml(goodsId);
+			}
+
 			return new Result(true,"修改成功");
 		}catch(Exception e){
 			return new Result(false, "修改失败");
 		}
+	}
+
+	/**
+	 * 生成静态页
+	 */
+	@RequestMapping("/getHtml")
+	public void getHtml(Long goodsId){
+		itemPageService.getItemHtml(goodsId);
 	}
 }
