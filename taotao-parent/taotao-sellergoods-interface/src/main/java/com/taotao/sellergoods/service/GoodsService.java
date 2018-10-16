@@ -68,5 +68,5 @@ public interface GoodsService {
 	/**
 	 * 根据商品ID和状态查询Item表信息
 	 */
-	List<TbItem> findItemListByGoodsIdAndStatus(Long[] goodsIds,String status);
+	List<TbItem> findItemListByGoodsIdListAndStatus(Long[] goodsIds,String status);
 }

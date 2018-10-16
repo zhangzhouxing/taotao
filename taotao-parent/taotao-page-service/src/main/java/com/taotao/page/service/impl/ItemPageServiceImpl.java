@@ -1,6 +1,5 @@
 package com.taotao.page.service.impl;
 
-import com.alibaba.dubbo.config.annotation.Service;
 import com.taotao.mapper.TbGoodsDescMapper;
 import com.taotao.mapper.TbGoodsMapper;
 import com.taotao.mapper.TbItemCatMapper;
@@ -12,11 +11,12 @@ import com.taotao.pojo.TbItem;
 import com.taotao.pojo.TbItemExample;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
-import freemarker.template.TemplateException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.view.freemarker.FreeMarkerConfig;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
@@ -94,6 +94,19 @@ public class ItemPageServiceImpl implements ItemPageService {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+        }
+    }
+
+    @Override
+    public boolean deleteItemHtml(Long[] goodsIds) {
+        try{
+            for (Long goodsId : goodsIds) {
+                new File(pagedir+goodsId+".html").delete();
+            }
+            return true;
+        }catch(Exception e){
+            e.printStackTrace();
+            return false;
         }
     }
 }
